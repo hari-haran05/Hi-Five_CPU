@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep  2 22:45:14 2022
+# Process ID: 20831
+# Current directory: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/clk_divider_synth_1
+# Command line: vivado -log clk_divider.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_divider.tcl
+# Log file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/clk_divider_synth_1/clk_divider.vds
+# Journal file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/clk_divider_synth_1/vivado.jou
+#-----------------------------------------------------------
+source clk_divider.tcl -notrace

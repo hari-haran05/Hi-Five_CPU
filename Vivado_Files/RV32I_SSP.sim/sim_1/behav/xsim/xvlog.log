@@ -1,0 +1,78 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Arithmetic_logic_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Arithmetic_logic_Unit
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Arithmetic_logic_Unit.sv:152]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Bit_shifter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Bit_shifter
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Bit_shifter.sv:49]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Bit_shifter.sv:50]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Bit_shifter.sv:56]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Bit_shifter.sv:57]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Status_Register_Unit
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:44]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:45]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:47]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:48]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:49]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:50]
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:76]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Status_Register_Unit.sv:99]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Control_Unit_Moore.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit_Moore
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/External_Controller_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module External_Controller_Unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Inst_Decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Fetch_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Inst_Fetch_Unit
+INFO: [VRFC 10-2458] undeclared symbol JAL_Or_B, assumed default net type wire [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Fetch_Unit.sv:48]
+INFO: [VRFC 10-2458] undeclared symbol J_Or_B, assumed default net type wire [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Fetch_Unit.sv:49]
+INFO: [VRFC 10-2458] undeclared symbol add_pc, assumed default net type wire [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Fetch_Unit.sv:50]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Fetch_Unit.sv:54]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Inst_Memory
+INFO: [VRFC 10-2458] undeclared symbol mem_en, assumed default net type wire [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Inst_Memory.sv:44]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Instruction_Execute.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Execute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Load_Store_Unit
+WARNING: [VRFC 10-986] literal value truncated to fit in 24 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:129]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:130]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:131]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:154]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:155]
+WARNING: [VRFC 10-986] literal value truncated to fit in 24 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:164]
+WARNING: [VRFC 10-986] literal value truncated to fit in 8 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:165]
+WARNING: [VRFC 10-986] literal value truncated to fit in 16 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:166]
+WARNING: [VRFC 10-986] literal value truncated to fit in 24 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:167]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Load_Store_Unit.sv:179]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Logical_Operators.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Logical_Operators
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Logical_Operators.sv:64]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Logical_Operators.sv:71]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Logical_Operators.sv:72]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Multiplier.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/PC.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/PC.sv:43]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Register_Set.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_Set
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Register_Set.sv:127]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Register_Set.sv:135]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Register_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Reset_sunchronizer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reset_synchronizer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/cycle_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cycle_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/data_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_Memory
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/data_mem.sv:62]
+WARNING: [VRFC 10-986] literal value truncated to fit in 32 bits [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/data_mem.sv:63]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/CPU_Intergration_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Intergration_0

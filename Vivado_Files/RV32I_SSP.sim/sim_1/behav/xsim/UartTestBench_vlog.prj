@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RV32I_SSP.srcs/sources_1/imports/UART/UartRx.v" \
+"../../../../RV32I_SSP.srcs/sources_1/imports/UART/UartTx.v" \
+"../../../../RV32I_SSP.srcs/sources_1/imports/UART/UartTestBench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

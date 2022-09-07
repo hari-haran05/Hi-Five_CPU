@@ -1,0 +1,7 @@
+Running: xsim.dir/cycle_counter_behav/xsimk -simmode gui -wdb cycle_counter_behav.wdb -simrunnum 0 -socket 33781
+Design successfully loaded
+Design Loading Memory Usage: 44044 KB (Peak: 44100 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 126040 KB (Peak: 183312 KB)
+Simulation CPU Usage: 36520 ms

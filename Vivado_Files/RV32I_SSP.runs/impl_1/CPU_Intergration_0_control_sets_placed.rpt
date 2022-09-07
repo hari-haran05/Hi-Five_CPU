@@ -1,0 +1,173 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
+| Date         : Fri Sep  2 22:59:25 2022
+| Host         : professor running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_control_sets -verbose -file CPU_Intergration_0_control_sets_placed.rpt
+| Design       : CPU_Intergration_0
+| Device       : xc7a35ti
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    95 |
+|    Minimum number of control sets                        |    95 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   587 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    95 |
+| >= 0 to < 4        |    81 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              31 |           23 |
+| No           | No                    | Yes                    |              84 |           72 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               9 |            5 |
+| Yes          | No                    | Yes                    |             343 |          142 |
+| Yes          | Yes                   | No                     |              10 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------+------------------+----------------+
+|                     Clock Signal                    |                    Enable Signal                    |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------+------------------+----------------+
+| ~Inst_Exe/CSRU/cc/data2[29]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  reset_sync/genblk1[3].counter_reg[3]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[2].counter_reg[2]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[4].counter_reg[4]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[5].counter_reg[5]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[7].counter_reg[7]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[6].counter_reg[6]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[8].counter_reg[8]__0            |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[9].counter_reg[9]__0            |                                                     |                                                |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[30]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  reset_sync/genblk1[1].counter_reg[1]__0            |                                                     |                                                |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[28]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[27]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[14]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[18]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[17]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[16]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[15]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[14]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[13]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[1]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[24]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[22]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[4]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[20]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[15]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[10]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[3]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[2]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[19]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[26]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[17]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[16]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  clk_IBUF_BUFG                                      | Inst_Exe/CSRU/ECU_UART/Transmit/o_Tx_Serial_i_1_n_0 |                                                |                1 |              1 |
+|  clk_IBUF_BUFG                                      |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  reset_sync/counter_reg_n_0_[0]                     |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[10].counter_reg[10]__0          |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[11].counter_reg[11]__0          |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[13].counter_reg[13]__0          |                                                     |                                                |                1 |              1 |
+|  reset_sync/genblk1[12].counter_reg[12]__0          |                                                     |                                                |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[23]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[11]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[10]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[8]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[7]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[9]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[6]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[28]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[18]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  Inst_Exe/CSRU/ECU_UART/transfer_done_n_reg_i_2_n_0 |                                                     |                                                |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[0]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[11]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[25]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[19]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[21]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[1]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[29]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[0]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[31]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[30]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[5]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[13]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[12]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[8]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[7]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[9]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[6]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[5]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[4]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[3]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data2[2]                          |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[27]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[26]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[12]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[20]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[21]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[22]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[23]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[24]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+| ~Inst_Exe/CSRU/cc/data0[25]                         |                                                     | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |                1 |              1 |
+|  reset_sync/genblk1[14].counter_reg[14]__0          |                                                     |                                                |                1 |              2 |
+|  clk_IBUF_BUFG                                      | Inst_Exe/CSRU/ECU_UART/transfer_start_reg_0         | reset_sync/db_1_reg_0                          |                2 |              4 |
+|  clk_IBUF_BUFG                                      | Inst_Exe/CSRU/ECU_UART/Transmit/r_Tx_Data_0         |                                                |                4 |              8 |
+|  clk_IBUF_BUFG                                      | Inst_Exe/CSRU/ECU_UART/mem_rd_addr[7]_i_1_n_0       | reset_sync/db_1_reg_0                          |                3 |              8 |
+|  clk_IBUF_BUFG                                      | Inst_Exe/CSRU/ECU_UART/Transmit/r_Clock_Count_1     | Inst_Exe/CSRU/ECU_UART/Transmit/r_Clock_Count0 |                3 |             10 |
+|  clk_IBUF_BUFG                                      |                                                     |                                                |                7 |             14 |
+|  clk_IBUF_BUFG                                      |                                                     | reset_sync/db_1_reg_0                          |                8 |             20 |
+|  clk_IBUF_BUFG                                      | ID/opcode/out_reg_reg[27]_7[0]                      | reset_sync/db_1_reg_0                          |                8 |             32 |
+|  clk_IBUF_BUFG                                      | ID/operand_1_reg[5]_1[0]                            | reset_sync/db_1_reg_0                          |                9 |             32 |
+|  clk_IBUF_BUFG                                      | ID/operand_1_reg[10]_0[0]                           | Inst_Exe/CSRU/cc/timer_con[31]_i_2_n_0         |               11 |             32 |
+|  clk_IBUF_BUFG                                      | Control/en_edge                                     | reset_sync/db_1_reg_0                          |                9 |             32 |
+|  clk_IBUF_BUFG                                      | Control/enable[0]                                   | reset_sync/db_1_reg_0                          |               28 |             32 |
+|  clk_IBUF_BUFG                                      | ID/operand_1_reg[5]_0[0]                            | reset_sync/db_1_reg_0                          |                8 |             32 |
+|  clk_IBUF_BUFG                                      | inst_mem/reg_wr_en_reg                              |                                                |               12 |             96 |
+|  clk_IBUF_BUFG                                      | Control/enable[1]                                   | reset_sync/db_1_reg_0                          |               64 |            139 |
++-----------------------------------------------------+-----------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+

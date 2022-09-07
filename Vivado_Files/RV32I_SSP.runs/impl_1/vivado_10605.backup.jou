@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep  1 23:52:06 2022
+# Process ID: 10605
+# Current directory: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/impl_1
+# Command line: vivado -log CPU_Intergration_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CPU_Intergration_0.tcl -notrace
+# Log file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/impl_1/CPU_Intergration_0.vdi
+# Journal file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source CPU_Intergration_0.tcl -notrace

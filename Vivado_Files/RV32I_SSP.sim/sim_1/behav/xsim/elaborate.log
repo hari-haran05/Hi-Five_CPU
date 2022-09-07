@@ -1,0 +1,40 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/hari/tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 976c65760a394359ad1cc47894068bcb --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CPU_Intergration_0_behav xil_defaultlib.CPU_Intergration_0 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3705] select index 23 into 'counter' is out of bounds [/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.srcs/sources_1/new/Reset_sunchronizer.sv:69]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=32.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_divider_clk_wiz
+Compiling module xil_defaultlib.clk_divider
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Inst_Fetch_Unit
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.decoder(INPUT=3,OUT=8)
+Compiling module xil_defaultlib.Inst_Decoder
+Compiling module xil_defaultlib.Register_file
+Compiling module xil_defaultlib.Register_Set
+Compiling module xil_defaultlib.Load_Store_Unit
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.Multiplier
+Compiling module xil_defaultlib.Bit_shifter
+Compiling module xil_defaultlib.Logical_Operators
+Compiling module xil_defaultlib.Arithmetic_logic_Unit
+Compiling module xil_defaultlib.cycle_counter
+Compiling module xil_defaultlib.UartTx
+Compiling module xil_defaultlib.External_Controller_Unit
+Compiling module xil_defaultlib.Control_Status_Register_Unit
+Compiling module xil_defaultlib.Instruction_Execute
+Compiling module xil_defaultlib.Control_Unit_Moore
+Compiling module xil_defaultlib.Inst_Memory
+Compiling module xil_defaultlib.data_Memory
+Compiling module xil_defaultlib.Reset_synchronizer
+Compiling module xil_defaultlib.CPU_Intergration_0
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_Intergration_0_behav

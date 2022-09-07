@@ -1,0 +1,7 @@
+Running: xsim.dir/Bit_shifter_behav/xsimk -simmode gui -wdb Bit_shifter_behav.wdb -simrunnum 0 -socket 47787
+Design successfully loaded
+Design Loading Memory Usage: 43928 KB (Peak: 44048 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 130024 KB (Peak: 183196 KB)
+Simulation CPU Usage: 80 ms

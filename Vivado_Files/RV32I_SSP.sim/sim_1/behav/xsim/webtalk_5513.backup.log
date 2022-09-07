@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Sep  1 20:23:51 2022
+# Process ID: 5513
+# Current directory: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim/xsim.dir/CPU_Intergration_0_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim/xsim.dir/CPU_Intergration_0_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/hari/Documents/Projects/RISC-V/Verilog_implementations/RV32I_SSP/RV32I_SSP.sim/sim_1/behav/xsim/xsim.dir/CPU_Intergration_0_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Sep  1 20:23:55 2022. For additional details about this file, please refer to the WebTalk help file at /home/hari/tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep  1 20:23:55 2022...
